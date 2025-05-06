@@ -17,3 +17,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+  variables:
+  azureSubscription: 'Your Azure Subscription'  # Your Azure subscription name in Azure DevOps
+  appName: 'YourWebAppName'  # Name of your Azure App Service (e.g., 'my-web-app')
+  stagingSlot: 'staging'  # Name of your staging slot
+  productionSlot: 'production'  # Name of your production slot
+
